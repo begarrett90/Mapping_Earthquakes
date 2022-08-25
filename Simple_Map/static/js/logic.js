@@ -35,8 +35,7 @@ let map = L.map('mapid', {
     layers: [streets]
 })
 
-// Pass our map layers into our layers control and add the layers control to the map.
-L.control.layers(baseMaps).addTo(map);
+
 
 // // Then we add our 'graymap' tile layer to the map.
 // streets.addTo(map);
